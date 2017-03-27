@@ -4,7 +4,7 @@ var game = {
 	emptyArray: [],
 	usedLetters: [],
 	remainingGuesses: "<p style='font-size: 20px'>Guesses left: </p>",
-	wordsArray: ["Jerry", "Elaine", "Costanza", "Kramer", "Newman", "Seinfeld"],
+	wordsArray: ["jerry", "elaine", "costanza", "kramer", "newman", "seinfeld"],
 	usedWords: [],
 	randomIndex: function() {
 		return Math.floor(Math.random() * (this.wordsArray.length));

@@ -6,50 +6,50 @@
 	<title>Let's Play Hangman!</title>
 	<meta content="Hangman Game" name="description">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="#" rel="apple-touch-icon">
-	<link href="#" rel="icon" type="image/jpg">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="assets/images/feelgood.jpg" rel="icon" type="image/jpg">
+	<link href="https://bootswatch.com/simplex/bootstrap.min.css" rel="stylesheet">
 </head>
-<body style="background-image: url(assets/images/seinfeld_background.png); font-family: 'VT323', monospace;">
-
-	<div class="container bg-info" style="border-radius: 15px">
+<body>
+	<div class="container" style="border-radius: 5px; background-image: url(assets/images/seinfeld_background.png);">
 		<div class="page-header text-center">
-			<h1 style="font-family: 'Permanent Marker', cursive;">The Hangman Game</h1>
+			<h1><strong>Helloooooooooooooo!</strong></h1>
 		</div>
 	</div>
-
+	<div class="col-md-12">
+		<div class="container text-center">
+			<div class="col-md-12">
+				<div id="victoryImage"></div>
+			</div>
+		</div>
+	</div>
 	<div class="container" style="height: 100%">
-		<div class="jumbotron text-center" style="margin-top: 20px;background-color: #333333; color: white;">
+		<div class="jumbotron text-center" style="margin-top: 20px;background-color: yellow; color: red;">
 			<div class="row">
-				<h2>
-					Press Any Key To Get Started
-				</h2>
+				<div class="col-md-12">
+					<h2 style="color: red">Put your "man hands" to the keyboard to get started!</h2>
+				</div>
 			</div>
 			<div class="row text-center">
-				<div class="col-xs-12" id="wins" style="font-size: 30px"></div>	
+				<div class="col-md-12" id="wins" style="font-size: 30px"></div>
 			</div>
 			<div class="row text-center">
-				<div class="col-xs-12" id="current_word" style="font-size: 40px"></div>	
+				<div class="col-md-12" id="currentWord" style="font-size: 40px"></div>
 			</div>
 			<div class="row text-center">
-				<div class="col-xs-12" id="guesses_remaining_title" style="font-size: 30px"></div>	
+				<div class="col-md-12" id="remainingGuessesTitle" style="font-size: 30px"></div>
 			</div>
 			<div class="row text-center">
-				<div class="col-xs-12" id="guesses_remaining_number" style="font-size: 30px"></div>	
+				<div class="col-md-12" id="remainingGuessesNumber" style="font-size: 30px"></div>
 			</div>
 			<div class="row text-center">
-				<div class="col-xs-12" id="letters_used_title" style="font-size: 30px"></div>	
+				<div class="col-md-12" id="lettersUsedTitle" style="font-size: 30px"></div>
 			</div>
 			<div class="row text-center">
-				<div class="col-xs-12" id="letters_used" style="font-size: 30px"></div>	
+				<div class="col-md-12" id="lettersUsed" style="font-size: 30px"></div>
 			</div>
 		</div>
 	</div>
-	<div class="container text-center">
-			<div id="victoryImage"></div>
-	</div>
-
-	<script src="assets/javascript/game.js"></script>
-
+	<script src="assets/javascript/game.js">
+	</script>
 </body>
 </html>

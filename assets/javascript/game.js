@@ -90,7 +90,7 @@ document.onkeyup = function(event) {
 		keyUp.print_letters_used();
 		keyUp.print_blank_word();
 		keyUp.print_guesses_number();
-		keyUp.cheer.play();
+		keyUp.applause.play();
 	}
 	if (game.guesses === 0) {
 		alert("No wins for you!!");

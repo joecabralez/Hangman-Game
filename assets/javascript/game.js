@@ -68,7 +68,7 @@ document.onkeyup = function(event) {
 	document.querySelector("#lettersUsedTitle").innerHTML = keyUp.letterTitle;
 	keyUp.print_letters_used();
 	if (game.contains(keyUp.changingWord, " _ ") === false) {
-		alert("Helloooo you're a winner! You guessed: " + chosenWord);
+		alert("Helloooo you're a winner! You guessed " + chosenWord + "!");
 		game.usedWords.push(chosenWord);
 		game.wins = game.wins + 1;
 		if (game.wins === 6) {
